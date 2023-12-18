@@ -1,0 +1,27 @@
+<bugReport>
+    <bugID>123456</bugID>
+    <summary>Application crashes when opening settings page</summary>
+    <severity>Major</severity>
+    <priority>High</priority>
+    <reportedBy>User123</reportedBy>
+    <dateReported>2023-12-10T08:30:00</dateReported>
+    <description>
+        Users have reported that when attempting to open the settings page, the application crashes unexpectedly.
+        This issue seems to occur consistently when navigating to the "General" tab within the settings.
+        This problem is critical as it prevents users from accessing and configuring important application settings.
+        A screen capture of the error is attached for reference (see screen_capture.png).
+    </description>
+    <stepsToReproduce>
+        <step>Launch the application</step>
+        <step>Go to the settings page</step>
+        <step>Click on the "General" tab</step>
+    </stepsToReproduce>
+    <expectedResult>The settings page should open without any issues.</expectedResult>
+    <actualResult>The application crashes, displaying an error message.</actualResult>
+    <attachment>screen_capture.png</attachment>
+    <environment>
+        <os>Windows 10</os>
+        <browser>Chrome 98.0.4758.102</browser>
+        <applicationVersion>2.3.1</applicationVersion>
+    </environment>
+</bugReport>

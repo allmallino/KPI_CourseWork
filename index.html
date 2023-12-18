@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>Please upload your xml-file</p>
+    <input id="fileInpt" type="file" name="fileInpt" accept=".xml" multiple="true"/>
+    <section id="resultSection">
+    </section>
+    <h2 id="statsHeader"></h2>
+    <section class="statsCharts">
+      <canvas id="correctnesStats">
+      </canvas>
+      <canvas id="wrongnesStats">
+      </canvas>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

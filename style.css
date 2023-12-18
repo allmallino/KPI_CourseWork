@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+
+.codeContainer{
+    margin: 25px auto;
+    padding: 15px 25px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: lightgray;
+}
+
+.problemList{
+    color: darkred;
+    font-weight: bold;
+}
+
+.resText{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+h2{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+article{
+    min-height: 100vh;
+    margin: 25px auto;
+    padding: 15px 25px;
+}
+
+#statsHeader{
+    margin-bottom: 25px;
+}
+
+.statsCharts{
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio:3/1;
+  margin: 0 auto;
+  overflow: hidden;
+}

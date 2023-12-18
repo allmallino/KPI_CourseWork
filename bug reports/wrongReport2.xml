@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+    <summary>Application crashes on startup</summary>
+    <description>
+        Users are experiencing a critical issue where the application crashes immediately upon startup. 
+        This problem severely impacts the usability of the application, preventing users from accessing any functionality.
+    </description>
+    <stepsToReproduce>
+        <step>Launch the application</step>
+    </stepsToReproduce>
+    <expectedResult>The application should start without any issues.</expectedResult>
+    <!-- Missing bugID -->
+    <actualResult>The application crashes with an error.</actualResult>
+    <severity>Major</severity>
+    <priority>High</priority>
+    <reportedBy>User123</reportedBy>
+    <dateReported>2023-12-10T09:15:00</dateReported>
+    <environment>
+        <os>Windows 10</os>
+        <browser>Chrome 98.0.4758.102</browser>
+        <applicationVersion>2.3.1</applicationVersion>
+    </environment>
+</bugReport>

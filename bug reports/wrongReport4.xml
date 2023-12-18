@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+    <bugID>789012</bugID>
+    <summary>Application freezes randomly</summary>
+    <description>
+        Users are facing a critical issue where the application freezes randomly, making it unresponsive.
+    </description>
+    
+    <stepsToReproduce>
+        <step>Perform an action</step>
+        <!-- Mismatched closing tag -->
+        <step>Perform another action</stepXYZ>
+    </stepsToReproduce>
+    <expectedResult>The application should respond smoothly.</expectedResult>
+    <actualResult>The application freezes and becomes unresponsive.</actualResult>
+    <severity>Critical</severity>
+    <priority>High</priority>
+    <reportedBy>User789</reportedBy>
+    <dateReported>2023-12-10T11:30:00</dateReported>
+    <environment>
+        <os>macOS Big Sur</os>
+        <browser>Safari 15.0</browser>
+        <applicationVersion>2.3.2</applicationVersion>
+    </environment>
+</bugReport>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+    <!-- Missing bugID -->
+    <summary>Application crashes when clicking the "Submit" button</summary>
+    <description>
+        Users have encountered a critical issue where the application crashes upon clicking the "Submit" button.
+    </description>
+    <stepsToReproduce>
+        <step>Launch the application</step>
+        <step>Perform some actions</step>
+    </stepsToReproduce>
+    <expectedResult>The application should not crash.</expectedResult>
+    <!-- Missing actualResult -->
+    <severity>Medium</severity>
+    <priority>Low</priority>
+    <reportedBy>User789</reportedBy>
+    <dateReported>2003 56 8</dateReported>
+    <environment>
+        <os>macOS Catalina</os>
+        <browser>Firefox 97.0.1</browser>
+        <!-- Missing applicationVersion -->
+    </environment>
+</bugReport>

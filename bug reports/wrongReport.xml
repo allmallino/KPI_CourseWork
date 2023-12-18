@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+    <bugID>456789</bugID>
+    <summary>Incorrect date format in bug report</summary>
+    <stepsToReproduce>
+        <step>Open the application</step>
+        <step>Perform an action</step>
+    </stepsToReproduce>
+    <actualResult>An unexpected behavior occurs.</actualResult>
+    <severity>It is normal</severity>
+    <reportedBy>User012</reportedBy>
+    <environment>
+        <os>Windows 11</os>
+        <browser>Edge 98.0.1108.62</browser>
+        <applicationVersion>2.3.0</applicationVersion>
+    </environment>
+</bugReport>
